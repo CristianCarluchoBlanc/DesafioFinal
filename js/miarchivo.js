@@ -22,16 +22,15 @@ console.log (res3);
 let altura = prompt('¿Cual es su altura?')
 let res4 =(altura);
 console.log (res4);
-
-
+ }
 if (nombre && edad && peso && altura){
 
 let users = new Persona(nombre,edad,peso,altura)
 console.log(users)
 }else{
-alert ('Es necesario que coloque todos los datos')
- }
+     alert ('Es necesario que coloque todos los datos')
 }
+
 alert ('Perfecto, usuario inscripto en nuestra aplicacion')
 
 
@@ -103,7 +102,7 @@ document.getElementById('form')
     });
 
 
-sessionStorage.setItem('minombre', 'Cristian', true);
+sessionStorage.setItem('minombre', 'Felipe', true);
 sessionStorage.setItem('miedad', '18', true);
-sessionStorage.setItem('mialtura', '1.88', true);
+sessionStorage.setItem('mialtura', '1.90', true);
 sessionStorage.setItem('mipeso', '70', true);
